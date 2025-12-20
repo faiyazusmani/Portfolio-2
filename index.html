@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faiyaz Usmani | Frontend Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/x-icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>">
+</head>
+
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">Faiyaz<span> Usmani</span></a>
+
+                <div class="nav-links">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+
+                <div class="nav-actions">
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                        <i class="fas fa-moon"></i>
+                        <i class="fas fa-sun"></i>
+                    </button>
+
+                    <button class="menu-toggle" id="menuToggle" aria-label="Toggle mobile menu">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="close-menu" id="closeMenu">
+            <i class="fas fa-times"></i>
+        </button>
+        <a href="#home" class="mobile-nav-link">Home</a>
+        <a href="#about" class="mobile-nav-link">About</a>
+        <a href="#skills" class="mobile-nav-link">Skills</a>
+        <a href="#projects" class="mobile-nav-link">Projects</a>
+        <a href="#contact" class="mobile-nav-link">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h3 class="hero-subtitle"><span class="hello">Hello,</span> I'm</h3>
+                    <h1 class="hero-title">Faiyaz <span class="usmani"> Usmani</span></h1>
+                    <h2 class="hero-role">Frontend Developer</h2>
+                    <p class="hero-description">Crafting beautiful, functional, and responsive web experiences with
+                        clean code and modern design principles.</p>
+
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+
+                    <div class="hero-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Dhilai Firozpur Dirstic Mau, India</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>BCA Student (2023-2026)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <div class="profile-photo-container">
+                            <img src="images/profile-photo.jpg" alt="Faiyaz Usmani" class="profile-photo">
+                            <div class="photo-placeholder">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                        </div>
+                        <div class="floating-elements">
+                            <div class="floating-element element-1">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <div class="floating-element element-2">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                                                
+                            <div class="floating-element element-3">
+                                <i class="fab fa-js"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know more about my background and education</p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Professional Summary</h3>
+                    <p>I am a passionate and dedicated BCA student with a strong interest in software development and
+                        web technologies. I enjoy learning new skills, building creative projects, and continuously
+                        improving my knowledge in HTML, CSS, JavaScript, and modern web tools. I am eager to contribute
+                        to innovative projects and grow as a professional software developer.</p>
+
+                    <div class="about-details">
+                        <div class="detail">
+                            <h4><i class="fas fa-university"></i> Education</h4>
+                            <p>BCA (Bachelor of Computer Application)</p>
+                            <p class="detail-sub">J.S University, Shikohabad</p>
+                            <p class="detail-date">2023 – 2026</p>
+                        </div>
+
+                        <div class="detail">
+                            <h4><i class="fas fa-language"></i> Languages</h4>
+                            <p>English, Hindi</p>
+                        </div>
+
+                        <div class="detail">
+                            <h4><i class="fas fa-certificate"></i> Certificate</h4>
+                            <a href="https://drive.google.com/file/d/1q32Fe5_j6Y21TSSYE4jnZoWPgG1DHWcW/view?usp=sharing"><p>FreeCodeCamp Certification</p></a>                           
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-interests">
+                    <h3>Interests</h3>
+                    <div class="interest-list">
+                        <div class="interest-item">
+                            <i class="fas fa-code"></i>
+                            <span>Web Development & UI/UX Design</span>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-robot"></i>
+                            <span>Exploring New Technologies & AI Tools</span>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-utensils"></i>
+                            <span>Cooking & Food Blogging</span>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Mobile Technology & Gadgets</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Skills</h2>
+                <p class="section-subtitle">Technologies and tools I work with</p>
+            </div>
+
+            <div class="skills-grid">
+                <!-- HTML -->
+                <div class="skill-box">
+                    <i class="fab fa-html5"></i>
+                    <span class="skill-box-title">HTML5</span>
+                </div>
+
+                <!-- CSS -->
+                <div class="skill-box">
+                    <i class="fab fa-css3-alt"></i>
+                    <span class="skill-box-title">CSS3</span>
+                </div>
+
+                <!-- JavaScript -->
+                <div class="skill-box">
+                    <i class="fab fa-js"></i>
+                    <span class="skill-box-title">JavaScript</span>
+                </div>
+
+                <!-- Tailwind CSS -->
+                <div class="skill-box">
+                    <i class="fas fa-wind"></i>
+                    <span class="skill-box-title">Tailwind CSS</span>
+                </div>
+
+                <!-- GitHub -->
+                <div class="skill-box">
+                    <i class="fab fa-github"></i>
+                    <span class="skill-box-title">GitHub</span>
+                </div>
+
+                <!-- AI Tools -->
+                <div class="skill-box">
+                    <i class="fas fa-robot"></i>
+                    <span class="skill-box-title">AI Tools</span>
+                </div>
+
+                <!-- ChatGPT -->
+                <div class="skill-box">
+                    <i class="fab fa-react"></i>
+                    <span class="skill-box-title">ChatGPT</span>
+                </div>
+                
+                <!-- Google-Gemini -->
+                <div class="skill-box">
+                    <i class="fab fa-google"></i>
+                    <span class="skill-box-title">Google-Gemini</span>
+                </div>
+            </div>
+
+            <div class="skills-icons">
+                <div class="skill-icon">
+                    <i class="fab fa-html5"></i>
+                    <span>HTML5</span>
+                </div>
+                <div class="skill-icon">
+                    <i class="fab fa-css3-alt"></i>
+                    <span>CSS3</span>
+                </div>
+                <div class="skill-icon">
+                    <i class="fab fa-js"></i>
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-icon">
+                    <i class="fas fa-wind"></i>
+                    <span>Tailwind</span>
+                </div>
+                <div class="skill-icon">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </div>
+                <div class="skill-icon">
+                    <i class="fas fa-robot"></i>
+                    <span>AI Tools</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Projects</h2>
+                <p class="section-subtitle">Recent work and creative projects</p>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-img-placeholder">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Delicious Food</h3>
+                        <p class="project-description">A visually engaging recipe web app featuring multiple dishes with
+                            ingredients, cooking steps, calorie count, and sections like Recipes, Healthy Tips, About,
+                            and Contact.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <!-- <span class="project-tag">JavaScript</span> -->
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://delicious-food-chi-ten.vercel.app/" class="project-btn">Live Demo</a>
+                            <a href="https://github.com/faiyazusmani" class="project-btn secondary">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-img-placeholder">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">iPhone Collection</h3>
+                        <p class="project-description">A modern showcase of iPhone models (2007–2025) with
+                            specifications, features, and images.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <!-- <span class="project-tag">JavaScript</span> -->
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://i-phone-collection.vercel.app/" class="project-btn">Live Demo</a>
+                            <a href="https://github.com/faiyazusmani" class="project-btn secondary">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-img-placeholder">
+                            <i class="fa-solid fa-shirt"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Jacket Collection</h3>
+                        <p class="project-description">A responsive men’s jacket collection website created using HTML, CSS, featuring multiple brands with stylish designs, prices, and ratings..</p>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <!-- <span class="project-tag">JavaScript</span> -->
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://jacketcollection.vercel.app/" class="project-btn">Live Demo</a>
+                            <a href="https://github.com/faiyazusmani" class="project-btn secondary">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-img-placeholder">
+                            <i class="fa-solid fa-briefcase"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Swiggy-Clone</h3>
+                        <p class="project-description">This project is a clone of a food delivery website where users can browse restaurants, view food items, and experience a simple online ordering interface. It focuses on a clean UI, responsive design, and basic cart functionality.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <!-- <span class="project-tag">JavaScript</span> -->
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://swiggy-clone-three-iota.vercel.app/" class="project-btn">Live Demo</a>
+                            <a href="https://github.com/faiyazusmani" class="project-btn secondary">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Feel free to contact me for collaborations or opportunities</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="contact-details">
+                        <div class="contact-item"> 
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="#"><p>faiyazusmani068@gmail.com</p></a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91 8114103889</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Dhilai Firozpur Dirstic Mau, India</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <h4>Connect with me</h4>
+                        <div class="social-icons">
+                            <a href="https://github.com/faiyazusmani" class="social-icon" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/faiyaz-usmani-a6801237a/" class="social-icon" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://www.instagram.com/faiyaz_usmani_01/" class="social-icon" aria-label="LinkedIn">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <a href="#" class="footer-logo">Faiyaz<span> Usmani</span></a>
+                <p class="footer-text">Frontend Developer passionate about creating beautiful, functional web
+                    experiences.</p>
+
+                <div class="footer-social">
+                    <a href="https://github.com/faiyazusmani" class="social-icon" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/faiyaz-usmani-a6801237a/" class="social-icon" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://www.instagram.com/faiyaz_usmani_01/" class="social-icon" aria-label="Instaram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+
+                <p class="copyright">Copyright &copy; 2025 Faiyaz Usmani. All rights reserved.</p>
+            </div>
+        </div>
+
+        <!-- Scroll to Top Button -->
+        <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
